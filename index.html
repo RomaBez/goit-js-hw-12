@@ -7,7 +7,9 @@
     <title>Gallery Project HM12</title>
     
     <script type="module" crossorigin src="/goit-js-hw-12/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-10c40100.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-09d7c26e.js">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-12/assets/index-7e7e9fed.css">
   </head>
   <body>
     <main>
@@ -26,13 +28,15 @@
   </div>
 </section>
 
+      <span class="loader is-hidden js-loader"></span>
       <section class="gallery-section">
   <div class="container">
-    <span class="loader is-hidden"></span>
     <ul class="gallery"></ul>
   </div>
+  <div class="load-more-btn">
+    <button class="gallery-more-btn js-load-more-btn d-none">Load more</button>
+  </div>
 </section>
-npm install simplelightbox
 
     </main>
     
